@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="NG-Ex%233-FelipeB.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
 <title>Pretzel Recipe</title>
 
@@ -17,7 +18,7 @@
 
 <heading>Preparation</heading>
 <step n="1">In a bowl, <action>mix</action> <ingredient>water, salt, and sugar</ingredient> until combined. <action>Add</action> <ingredient>yeast</ingredient>, and <action>let rest</action> <time><quant>5</quant> <unit>minutes</unit></time> until yeast starts to foam.</step>
-<step n="2"><action>Add</action> <ingredients>flour and <quant>2</quant> <unit>tablespoons</unit> of oil</ingredients>, and <action>mix thoroughly</action> until a dough forms.</step>
+<step n="2"><action>Add</action> <ingredient>flour and <quant>2</quant> <unit>tablespoons</unit> of oil</ingredient>, and <action>mix thoroughly</action> until a dough forms.</step>
 <step n="3"><action>Remove</action> the <ingredient>dough</ingredient> and use the remaining oil to cover the bowl.</step>
 <step n="4"><action>Cover</action> bowl with plastic wrap, and <action>leave</action> in a warm place for <time><quant>1</quant> <unit>hour</unit></time>.</step>
 <step n="5"><action>Preheat</action> oven to <temperature><quant>450°</quant><unit>F</unit> (<quant>230°</quant><unit>C</unit>)</temperature>.</step>

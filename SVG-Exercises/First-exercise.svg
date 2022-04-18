@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc>Class exercise</desc>
+    <g alignment-baseline="baseline">
+    </g>
+    <g>
+        <line x1="50" y1="400" x2="50" y2="100" color="blue" stroke="blue" stroke-width="3"></line>
+        <line x1="50" y1="400" x2="350" y2="400" color="blue" stroke="blue" stroke-width="3"></line>
+        <line x1="95" y1="400" x2="95" y2="350" color="orange" stroke="orange" stroke-width="60"></line>
+        <line x1="175" y1="400" x2="175" y2="100" color="purple" stroke="purple" stroke-width="60"></line>
+        <line x1="255" y1="400" x2="255" y2="300" color="green" stroke="green" stroke-width="60"></line>
+        <g class="y-axis">
+            <text x="10" y="420">0</text>
+            <text x="10" y="340">25</text>
+            <text x="10" y="260">50</text>
+            <text x="10" y="180">75</text>
+            <text x="10" y="100">100</text>
+        </g>
+        <g class="x-axis">
+            <text x="70" y="420">January</text>
+            <text x="145" y="420">February</text>
+            <text x="235" y="420">March</text>
+        </g>
+        <g class="titles">
+            <text x="25" y="80">Revenue</text>
+            <text x="150" y="450">Month</text>
+        </g>
+    </g>
+</svg>

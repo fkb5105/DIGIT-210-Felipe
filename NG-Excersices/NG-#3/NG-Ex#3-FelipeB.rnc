@@ -1,0 +1,17 @@
+start = root
+root = element root {title, (total |heading | ing | step)+ }
+title = element title {text}
+total = element total {text}
+heading = element heading {text}
+ing = element ing { mixed {(n | quant | unit | material)*}}
+n = attribute n {xsd:integer}
+quant = element quant {num*, text}
+num = attribute num {xsd:float}
+unit = element unit {text}
+material = element material {text}
+step = element step {n, mixed {(action | ingredient | quant | unit | temperature | time)*}}
+action = element action {text}
+ingredient = element ingredient {text, mixed {(quant | unit)*}}
+temperature = element temperature {text, mixed{(quant | unit)*}}
+time = element time {quant, unit}
+
